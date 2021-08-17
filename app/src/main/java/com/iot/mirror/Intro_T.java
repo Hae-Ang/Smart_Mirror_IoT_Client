@@ -20,11 +20,11 @@ public class Intro_T extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // 상태바 지우기
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+//        // 상태바 지우기
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.hide();
 
-        setContentView(R.layout.activity_intro_t);
+        setContentView(R.layout.mirror_intro_t);
 
 //        img_View = findViewById(R.id.img_View);
 

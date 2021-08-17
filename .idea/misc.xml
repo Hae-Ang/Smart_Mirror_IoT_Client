@@ -3,19 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/drawable/font.xml" value="0.38229166666666664" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/drawable/gradation.xml" value="0.38229166666666664" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/drawable/transparency.xml" value="0.38229166666666664" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/layout/activity_intro_t.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/layout/activity_login_t.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/layout/help_service.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/layout/join.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/layout/sens_list.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/smhrd/AndroidStudioProjects/KingBo_app/app/src/main/res/layout/store_view.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/drawable/gradation.xml" value="0.16203703703703703" />
         <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/activity_intro_t.xml" value="0.3359375" />
         <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/activity_login_t.xml" value="0.3359375" />
         <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/activity_main2.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/help_service.xml" value="0.1" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/join.xml" value="0.1" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/main_laybar.xml" value="0.302536231884058" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/mirror_help_service_t.xml" value="0.29030797101449274" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/mirror_intro_t.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/mirror_join_t.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/mirror_login_t.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/mirror_main_t.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/mirror_navi_header_t.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/mirror_sensor_list_t.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/mirror_store_view_t.xml" value="0.25" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/navigation_drawer_header.xml" value="0.302536231884058" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/sens_list.xml" value="0.1" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/layout/store_view.xml" value="0.1" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/menu/drawer_menu_item.xml" value="0.3359375" />
+        <entry key="..\:/Users/smhrd/Desktop/android/Smart_Mirror_IoT_Client/app/src/main/res/menu/mirror_menu_list_t.xml" value="0.3359375" />
       </map>
     </option>
   </component>

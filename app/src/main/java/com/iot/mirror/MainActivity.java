@@ -19,12 +19,11 @@ import com.android.volley.toolbox.Volley;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class MainActivity extends AppCompatActivity {
 
     private EditText edt_text;
     private Button btn_ok;
-    RequestQueue requestQueue;
+    private RequestQueue requestQueue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
