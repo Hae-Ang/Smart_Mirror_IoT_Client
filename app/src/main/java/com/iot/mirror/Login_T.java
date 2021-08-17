@@ -3,11 +3,9 @@ package com.iot.mirror;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -35,11 +33,7 @@ public class Login_T extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // 상태바 지우기
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
-
-        setContentView(R.layout.activity_login_t);
+        setContentView(R.layout.mirror_login_t);
 
         const_layout = findViewById(R.id.const_layout);
 
@@ -164,7 +158,7 @@ public class Login_T extends AppCompatActivity {
             loadingProgressBar.setVisibility(View.VISIBLE);
             updateUiWithUser();
 
-            Intent intent = new Intent(Login_T.this, Intro_T.class);
+            Intent intent = new Intent(Login_T.this, Main_T.class);
             startActivity(intent);
 
             finish();
