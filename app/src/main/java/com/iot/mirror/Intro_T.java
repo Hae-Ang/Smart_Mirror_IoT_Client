@@ -14,7 +14,7 @@ import com.iot.controller.Thread_Controll;
 
 public class Intro_T extends AppCompatActivity {
 
-    private ImageView img_View = null;
+//    private ImageView img_View = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +26,11 @@ public class Intro_T extends AppCompatActivity {
 
         setContentView(R.layout.activity_intro_t);
 
-        img_View = findViewById(R.id.img_View);
+//        img_View = findViewById(R.id.img_View);
 
         Thread_Controll thread_controll = new Thread_Controll(handler);
 
-        img_View.setVisibility(View.VISIBLE);
+//        img_View.setVisibility(View.VISIBLE);
 
         thread_controll.start();
     }
