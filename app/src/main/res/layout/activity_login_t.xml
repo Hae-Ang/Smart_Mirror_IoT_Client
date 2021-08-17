@@ -16,54 +16,71 @@
         android:id="@+id/edt_user_id"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="128dp"
+        android:layout_marginBottom="24dp"
         android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/dream3"
         android:hint="아이디"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         android:textColor="#FFFFFF"
         android:textColorHint="#7C7C7C"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/edt_user_pw"
         app:layout_constraintEnd_toStartOf="@+id/guideline28"
-        app:layout_constraintStart_toStartOf="@+id/guideline21"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/guideline21" />
 
     <EditText
         android:id="@+id/edt_user_pw"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginBottom="64dp"
         android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/dream3"
         android:hint="비밀번호"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
         android:selectAllOnFocus="true"
         android:textColor="#FFFFFF"
         android:textColorHint="#7C7C7C"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/edt_user_id"
         app:layout_constraintStart_toStartOf="@+id/edt_user_id"
-        app:layout_constraintTop_toBottomOf="@+id/edt_user_id" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
+        android:layout_marginTop="48dp"
         android:background="@drawable/transparency"
-        android:enabled="false"
+        android:backgroundTint="#FFFFFF"
+        android:enabled="true"
+        android:fontFamily="@font/dream3"
         android:text="로그인"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/edt_user_pw"
         app:layout_constraintStart_toStartOf="@+id/edt_user_pw"
-        app:strokeWidth="1dp"
-        tools:layout_editor_absoluteY="519dp" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_user_pw"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp" />
 
     <Button
         android:id="@+id/btn_info"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/transparency"
+        android:backgroundTint="#FFFFFF"
+        android:enabled="true"
+        android:fontFamily="@font/dream3"
         android:text="회원가입"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="479dp" />
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_login"
+        app:layout_constraintStart_toStartOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp" />
 
     <ProgressBar
         android:id="@+id/btn_loading"
