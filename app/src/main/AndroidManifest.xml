@@ -14,8 +14,7 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".Main_T"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
 
         <activity
             android:name=".Intro_T"
@@ -36,6 +35,23 @@
 
         <activity
             android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".Sensor_list_T"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".Store_View"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Help_Service"
             android:exported="true"></activity>
     </application>
 

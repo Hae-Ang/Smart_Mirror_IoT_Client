@@ -159,6 +159,10 @@ public class Login_T extends AppCompatActivity {
             updateUiWithUser();
 
             Intent intent = new Intent(Login_T.this, Main_T.class);
+            
+            // sql 사용자 이름 데이터 집어 넣기
+            intent.putExtra("user_name", "사용자 이름");
+            
             startActivity(intent);
 
             finish();

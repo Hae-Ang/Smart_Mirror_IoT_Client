@@ -1,10 +1,10 @@
 package com.iot.mirror;
 
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
@@ -15,10 +15,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class Main_T extends AppCompatActivity {
+public class Sensor_list_T extends AppCompatActivity {
 
-    // 상단 텍스트바 로그인
-    private TextView tx_login_data = null;
     // 상단 툴바
     private Toolbar top_Toolbar = null;
 
@@ -26,25 +24,29 @@ public class Main_T extends AppCompatActivity {
     private DrawerLayout drawer_Layout = null;
     private NavigationView navi_View = null;
 
+
+    Button btn_1 = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mirror_main_t);
 
-        // 인탠트 넘어온 sql 사용자 데이터 집어 넣기
-        String user_name = getIntent().getStringExtra("user_name");
-
+        setContentView(R.layout.mirror_sensor_list_t);
 
         top_Toolbar = findViewById(R.id.top_Toolbar);
-        tx_login_data = findViewById(R.id.tx_login_data);
         drawer_Layout = findViewById(R.id.drawer_Layout);
         navi_View = findViewById(R.id.navi_View);
 
-        tx_login_data.setText(user_name);
+        btn_1 = findViewById(R.id.btn_1);
 
+        btn_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Sensor_list_T.this, "Test", Toast.LENGTH_LONG).show();
+            }
+        });
         // 내비 기능
         Navi_Content();
-
     }
 
     // 액션바 눌렀을때 버튼 동작
@@ -95,40 +97,20 @@ public class Main_T extends AppCompatActivity {
 
                 // 메뉴 리스트 menu_id 받아서 사용
                 if (menu_id == R.id.menu_home) {
-
-                    Intent intent = new Intent(Main_T.this, Main_T.class);
-
-                    intent.putExtra("name", "홈으로");
-
-                    startActivity(intent);
-
-                    finish();
+                    // 확인용
+                    Toast.makeText(Sensor_list_T.this, menu_list + ": 리스트1", Toast.LENGTH_SHORT).show();
 
                 } else if (menu_id == R.id.menu_store) {
 
-                    Intent intent = new Intent(Main_T.this, Store_View.class);
-
-                    // 스토어 넘어갈때 필요하면
-//                    intent.putExtra("name", "홈으로");
-
-                    startActivity(intent);
-
-                    finish();
+                    Toast.makeText(Sensor_list_T.this, menu_list + ": 리스트2", Toast.LENGTH_SHORT).show();
 
                 } else if (menu_id == R.id.menu_support) {
 
-                    Intent intent = new Intent(Main_T.this, Help_Service.class);
+                    Toast.makeText(Sensor_list_T.this, menu_list + ": 리스트3", Toast.LENGTH_SHORT).show();
 
-                    // 고객지원 넘어갈때 필요하면
-//                    intent.putExtra("name", "홈으로");
-
-                    startActivity(intent);
-
-                    finish();
                 }
                 return true;
             }
         });
     }
-
 }
