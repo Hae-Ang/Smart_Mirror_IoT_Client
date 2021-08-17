@@ -4,18 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Intro_T">
+    android:background="@drawable/gradation"
+    tools:context=".Intro_T" >
 
     <ImageView
-        android:id="@+id/img_View"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/img_logo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:srcCompat="@android:color/black" />
+        app:srcCompat="@drawable/logo" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/dream2"
+        android:text="Copyrightⓒ WhereIsKingbo"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/img_logo"
+        app:layout_constraintStart_toStartOf="@+id/img_logo"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
